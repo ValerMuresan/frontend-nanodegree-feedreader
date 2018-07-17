@@ -5,7 +5,7 @@
 ## Table of contents
 
 1. [Project overview](#project-overview)
-2. [How will I complete this project?](#how-will-I-complete-this-project?)
+2. [How will I complete this project?](#how-will-i-complete-this-project?)
 3. [Installing instructions](#installing-instructions)
 
 
