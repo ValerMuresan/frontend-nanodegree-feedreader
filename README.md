@@ -1,12 +1,12 @@
 # frontend-nanodegree-feedreader
-================================
+==========================================
 
 
 ## Table of contents
 
-1. [Project overview](project-overview)
-2. [How will I complete this project?](how-will-I-complete-this-project?)
-3. [Installing instructions](installing-instructions)
+1. [Project overview](#project-overview)
+2. [How will I complete this project?](#how-will-I-complete-this-project?)
+3. [Installing instructions](#installing-instructions)
 
 
 # Project Overview
