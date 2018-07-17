@@ -4,9 +4,9 @@
 
 ## Table of contents
 
-1. [Project Overview](Project-Overview)
-2. [How will I complete this project?](How-will-I-complete-this-project?)
-3. [Installing instructions](Installing-instructions)
+1. [Project overview](project-overview)
+2. [How will I complete this project?](how-will-I-complete-this-project?)
+3. [Installing instructions](installing-instructions)
 
 
 # Project Overview
@@ -61,15 +61,15 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 
 # Installing instructions
 
-For testing, the user has 2 options:
+For testing the app, the user has 2 options:
 
 ## Option 1
 
-* Download on your computer the ZIP version of the test app from [download](https://valermuresan.github.io/frontend-nanodegree-feedreader/.).
+* Download on your computer the ZIP version of the test app from [download](https://github.com/ValerMuresan/frontend-nanodegree-feedreader).
 * Unzip the file.
 * Double click on HTML file.
 
 ## Option 2
 
-* Clone the project using Git and this URL https://github.com/ValerMuresan/frontend-nanodegree-feedreader.git.
+* Clone the project using Git and this URL https://github.com/ValerMuresan/frontend-nanodegree-feedreader.git
 * Right click on HTML file and open in your favorite [browser](https://www.google.com/chrome/).
