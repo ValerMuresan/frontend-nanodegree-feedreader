@@ -54,8 +54,10 @@ $(function() {
          * the CSS to determine how we're performing the
          * hiding/showing of the menu element.
          */
+         // create body vaiable
+         let container = $('body');
          it('hidden by defaul', function() {
-           expect($('body').hasClass('menu-hidden')).toBe(true);
+           expect(container.hasClass('menu-hidden')).toBe(true);
          });
          /* Write a test that ensures the menu changes
           * visibility when the menu icon is clicked. This test
@@ -66,10 +68,10 @@ $(function() {
             // menu display when is clicked
             let menuIcon = $('.menu-icon-link');
             menuIcon.click();
-            expect($('body').hasClass('menu-hidden')).toBe(false);
+            expect(container.hasClass('menu-hidden')).toBe(false);
             // menu hide when is clicked again
             menuIcon.click();
-            expect($('body').hasClass('menu-hidden')).toBe(true);
+            expect(container.hasClass('menu-hidden')).toBe(true);
           });
         });
     /* Write a new test suite named "Initial Entries" */
@@ -81,11 +83,13 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
          beforeEach(function(done) {
-           $('.feed').empty();
-             loadFeed(0, done);
+             loadFeed(0, function(){
+               done();
+             });
            });
-         it('there is at least one entry', function() {
-           expect($('.entry').length).toBeGreaterThan(0);
+         it('there is at least one entry', function(done) {
+           expect($('.feed .entry').length).toBeGreaterThan(0);
+           done();
          });
        });
     /* Write a new test suite named "New Feed Selection" */
